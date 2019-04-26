@@ -1,0 +1,132 @@
+/*
+filename: style.css
+author: Calum Hay
+created: 15/3/2017
+last modified: 27/3/2017
+description: [product.html, index.html, enquire.html, enhancements.html, about.html]
+*/
+
+/*All Pages*/
+* {
+	font-family: Arial, sans-serif;
+	color: #404040;
+}
+
+#logo {
+	width: 170px;
+	margin-left: 0px;
+	margin-bottom: -32px;
+}
+
+h1, h2, nav a, nav p {font-family: Arial black, sans-serif;}
+
+header {
+	background-color: orange;
+	min-width: 70em;
+}
+
+header h1 {color: white;}
+
+footer {
+	border-top: 4px double orange;
+	text-align: center;
+	bottom:0;
+	font-size: small;
+}
+
+nav {
+	display: block;
+	float: left;
+	background-color: orange;
+	width: 170px;
+	position: absolute;
+	height: auto;
+}
+
+nav p {
+	text-align: center;
+	color: white
+}
+
+.menu {
+	display: block;
+	text-align: center;
+	margin: 0px 0px 7px 12px;
+    border: 4px solid darkGrey;
+    padding: 5px;
+    width: 130px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu:hover {
+    box-shadow: 0 0 4px 2px darkGrey;
+}
+
+.pageBody {
+	min-width: 60em;
+	min-height: 500px;
+}
+
+.content {
+	margin-left: 180px;
+	height: 100%;
+	background: url("images/jjnet.PNG") fixed no-repeat center center;
+}
+
+
+table, th, td {
+	border: 1px solid black;
+	background-color: white;
+}
+/*Product Page*/
+#featureTable th{background-color: lightgrey}
+
+#featureTable td{background-color: white}
+
+#extras {
+	border: 4px inset darkGrey;
+	border-radius: 14px;
+	margin: 2em;
+	padding: 1em;
+	background:url(images/orangefade.png) repeat-x top left, white;
+	width: 25%;
+	float: right;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#productsList {float: left;}
+
+/*Enquiry Page*/
+.formBlock {background-color: white;}
+
+/*About Page*/
+#studentDetails {width: 100%;}
+
+#studentDetails dl {width: 50%;}
+
+#studentDetails dt {
+	float: left;
+	width: 40%;
+}
+
+#studentDetails dd {
+	float: right;
+	width: 40%;
+}
+
+#studentDetails figure{
+	border: 5px double darkGrey;
+	float: right;
+	width: 18%;
+}
+
+#mailTo {margin-top: 8em;}
+
+#timetable {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em;
+}
+#timetable td {background-color: #ff9933}
